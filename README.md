@@ -39,7 +39,7 @@ repositories{
 }
 
 dependencies {
-    compile 'com.github.jaydeep17:datetimepicker:0.0.4'
+     compile 'com.github.dat0106:datetimepicker:0.0.5'
 }
 ```
 
