@@ -75,6 +75,7 @@ dependencies {
 
 4. **Change Dark Theme Dialog **
 
+    <img src="[7]" width="300">
    ![Example Image][7] ![Example Image][8]
   Override the following colors in your project
 
