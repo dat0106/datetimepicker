@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="datepicker_primary">#ff4CAF50</color>
-    <color name="datepicker_primary_dark">#ff388E3C</color>
+    <color name="white">#424242</color>
+    <color name="grey">#303030</color>
+    <color name="circle_background">#303030</color>
+    <color name="line_background">#303030</color>
+    <color name="done_text_color_normal">@color/datepicker_primary</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">@color/datepicker_primary_dark</color>
+    <color name="date_picker_view_animator">#424242</color>
+
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_white">#7F000000</color>
+    <color name="transparent_black">#7F000000</color>
+
+    <color name="datepicker_primary">#ff009688</color>
+    <color name="datepicker_primary_dark">#ff00796b</color>
 </resources>

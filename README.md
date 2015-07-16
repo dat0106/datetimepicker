@@ -27,7 +27,7 @@ Or browse the [source code of the sample application][3] for a complete example 
 
 ## Including in your project
 
-Last version is 0.0.4
+Last version is 0.0.5
 
 Just add the following in your build.gradle
 
@@ -73,6 +73,32 @@ dependencies {
   datePickerDialog.setMaxDate(new SimpleMonthAdapter.CalendarDay(2015, 4, 20));
   ```
 
+4. **Change Dark Theme Dialog **
+
+   ![Example Image][7] ![Example Image][8]
+  Override the following colors in your project
+
+  ```xml
+    <color name="white">#424242</color>
+    <color name="grey">#303030</color>
+    <color name="circle_background">#303030</color>
+    <color name="line_background">#303030</color>
+    <color name="done_text_color_normal">@color/datepicker_primary</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">@color/datepicker_primary_dark</color>
+    <color name="date_picker_view_animator">#424242</color>
+
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_white">#7F000000</color>
+    <color name="transparent_black">#7F000000</color>
+
+    <color name="datepicker_primary">#ff009688</color>
+    <color name="datepicker_primary_dark">#ff00796b</color>
+  ```
+
 ## Acknowledgements
 
 * Thanks to Google for this beautiful picker
@@ -93,7 +119,10 @@ dependencies {
     See the License for the specific language governing permissions and
     limitations under the License.
 
- [1]: https://raw.githubusercontent.com/jaydeep17/datetimepicker/master/graphics/img1.png
- [3]: https://github.com/jaydeep17/datetimepicker/tree/master/datetimepicker-sample
- [4]: https://github.com/jaydeep17/datetimepicker/blob/master/datetimepicker-sample/src/com/fourmob/datetimepicker/sample/MainActivity.java
+ [1]: https://raw.githubusercontent.com/dat0106/datetimepicker/master/graphics/img1.png
+ [3]: https://github.com/dat0106/datetimepicker/tree/master/datetimepicker-sample
+ [4]: https://github.com/dat0106/datetimepicker/blob/master/datetimepicker-sample/src/com/fourmob/datetimepicker/sample/MainActivity.java
  [5]: http://nineoldandroids.com/
+ [6]: https://raw.githubusercontent.com/dat0106/datetimepicker/master/document/device-2015-07-16-221229.png
+ [7]: https://raw.githubusercontent.com/dat0106/datetimepicker/master/document/device-2015-07-16-224523.png
+ [8]: https://raw.githubusercontent.com/dat0106/datetimepicker/master/document/device-2015-07-16-224546.png
