@@ -77,7 +77,6 @@ dependencies {
 
     <img src="https://raw.githubusercontent.com/dat0106/datetimepicker/master/document/device-2015-07-16-224523.png" width="300">
     <img src="https://raw.githubusercontent.com/dat0106/datetimepicker/master/document/device-2015-07-16-224546.png" width="300">
-   ![Example Image][7] ![Example Image][8]
   Override the following colors in your project
 
   ```xml
